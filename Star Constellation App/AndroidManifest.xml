@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.androidbootcamp.starconstellationapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="Info"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main" android:theme="@android:style/Theme.Holo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu1" android:theme="@android:style/Theme.Holo"></activity>
+        <activity android:name=".Pegasus" android:theme="@android:style/Theme.Holo"></activity>
+        <activity android:name=".PegasusInfo"></activity>
+    </application>
+
+</manifest>
